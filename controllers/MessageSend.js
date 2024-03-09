@@ -1,8 +1,8 @@
 const express = require('express');
 
 const credentials = {
-    apiKey: 'd70b4a1bd8a2b35a46fbe2f0c641588bf930235ac6bf021e95730963cae8c111',         // use your sandbox app API key for development in the test environment
-    username: 'codemunity',      // use 'sandbox' for development in the test environment
+    apiKey: 'API_KEY',         // use your sandbox app API key for development in the test environment
+    username: 'YOUR_USERNAME',      // use 'sandbox' for development in the test environment
 };
 
 const AfricasTalking = require('africastalking')(credentials);
